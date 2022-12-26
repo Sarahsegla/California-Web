@@ -42,8 +42,8 @@ h6 {
 
 p {
   font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+  
+  color: black;
 }
 
 section {
@@ -52,4 +52,22 @@ section {
 
 section h2 {
   font-size: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Rubik Puddles', cursive; 
+  background-image:white;
+}
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-top: 1%;
+}
+.navigation p a {
+  color: var(--dark);
+  font-size: 1.5rem;
+  background-color: white;
 }
